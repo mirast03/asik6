@@ -92,4 +92,10 @@ $(document).ready(function() {
             top: "50px"
         }, 1000);
     });
+
+    // Task 11
+    $(".accordion").click(function() {
+        $(this).next(".panel").slideToggle();
+    });
+
 });
