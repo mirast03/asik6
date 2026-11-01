@@ -61,4 +61,35 @@ $(document).ready(function() {
     $("#email").on("input", function() {
         $("#emailOutput").text($("#email").val());
     });
+    // Task 8
+    $("#animate1").click(function() {
+        $("#box1").animate({
+            width: "150px",
+            height: "150px",
+            left: "100px"
+        }, 1000);
+    });
+    // Task 9
+    $("#animate2").click(function() {
+        $("#box2")
+            .animate({left: "150px"}, 500)
+            .animate({top: "100px"}, 500)
+            .animate({width: "50px", height: "50px"}, 500)
+            .animate({
+                left: "0px",
+                top: "0px",
+                width: "100px",
+                height: "100px"
+            }, 500);
+    });
+    // Task 10
+    $("#animate3").click(function() {
+        $("#box3").animate({
+            opacity: 0.3,
+            width: "150px",
+            height: "150px",
+            left: "100px",
+            top: "50px"
+        }, 1000);
+    });
 });

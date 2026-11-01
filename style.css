@@ -17,3 +17,11 @@ button {
     margin: 5px;
     cursor: pointer;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin: 20px 0;
+}
